@@ -15,5 +15,5 @@ COPY --from=Bhavani /target/student_management_system-0.0.1-SNAPSHOT.jar student
 EXPOSE 8080
  
 
-ENTRYPOINT [ "java","student_management_system-0.0.1-SNAPSHOT.jar" ]
+ENTRYPOINT [ "java","-jar","student_management_system-0.0.1-SNAPSHOT.jar" ]
 
