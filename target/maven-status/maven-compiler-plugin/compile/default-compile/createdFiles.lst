@@ -1,0 +1,11 @@
+com\studentadmin\service\StudentService.class
+com\studentadmin\repository\AdminRepository.class
+com\studentadmin\controller\AdminController.class
+com\studentadmin\entity\Student.class
+com\studentadmin\service\AdminService.class
+com\studentadmin\controller\StudentController.class
+com\studentadmin\serviceimpl\AdminServiceImpl.class
+com\studentadmin\DemoApplication.class
+com\studentadmin\repository\StudentRepository.class
+com\studentadmin\serviceimpl\StudentServiceImpl.class
+com\studentadmin\entity\Admin.class
