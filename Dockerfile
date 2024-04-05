@@ -14,6 +14,6 @@ COPY --from=Bhavani /target/student_management_system-0.0.1-SNAPSHOT.jar student
 # Expose port 8080
 EXPOSE 8080
  
-HEAD
+
 ENTRYPOINT [ "java","student_management_system-0.0.1-SNAPSHOT.jar" ]
 
