@@ -17,5 +17,3 @@ EXPOSE 8080
 HEAD
 ENTRYPOINT [ "java","student_management_system-0.0.1-SNAPSHOT.jar" ]
 
-ENTRYPOINT [ "java","student_management_system-0.0.1-SNAPSHOT.jar" ]
- c1f184d6bc9d6445cd5492d07d416a079a54e3d3
