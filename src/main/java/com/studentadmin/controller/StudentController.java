@@ -20,7 +20,7 @@ import com.studentadmin.service.StudentService;
 
 @RestController
 @RequestMapping("/student")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://student-frontend-yigh.onrender.com")
 public class StudentController {
 
     @Autowired
