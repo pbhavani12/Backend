@@ -1,6 +1,5 @@
 # Use the official Java image as the base image
-FROM maven:3.8.5-openjdk-17 AS Bhavani
- 
+FROM maven:3.8.5-openjdk-17 AS Bhavani 
 # Copy the source code into the container
 Copy . .
  
@@ -15,4 +14,8 @@ COPY --from=Bhavani /target/student_management_system-0.0.1-SNAPSHOT.jar student
 # Expose port 8080
 EXPOSE 8080
  
+HEAD
 ENTRYPOINT [ "java","student_management_system-0.0.1-SNAPSHOT.jar" ]
+
+ENTRYPOINT [ "java","student_management_system-0.0.1-SNAPSHOT.jar" ]
+ c1f184d6bc9d6445cd5492d07d416a079a54e3d3
