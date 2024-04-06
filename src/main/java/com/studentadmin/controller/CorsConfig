@@ -9,7 +9,7 @@ public class CorsConfig implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**")
-            .allowedOrigins("https://backend-4vwz.onrender.com") // Replace this with your frontend URL
+            .allowedOrigins("https://student-frontend-yigh.onrender.com") // Replace this with your frontend URL
             .allowedMethods("GET", "POST", "PUT", "DELETE")
             .allowCredentials(true)
               .allowedHeaders("*");
